@@ -54,12 +54,20 @@ public class MainMenuController {
 
     @FXML
     void viewStu(ActionEvent event) throws IOException {
-              
+                anchor = FXMLLoader.load(getClass().getResource("viewStudents.fxml")); 
+  		Scene scene = new Scene(anchor);
+  		Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
+  		window.setScene(scene);
+  		window.show();
     }
 
     @FXML
     void removeStu(ActionEvent event) {
-
+    		anchor = FXMLLoader.load(getClass().getResource("remover.fxml")); 
+  		Scene scene = new Scene(anchor);
+  		Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
+  		window.setScene(scene);
+  		window.show();
     }
 
     @FXML
