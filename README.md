@@ -2,7 +2,7 @@
 
 Name of project:
 -	Student Monitoring Systems
-Name of your team:
+- Name of your team:
 -	Group 12: The Code Crew
 Full names of all team members:
 - Team leader:         Tuan Nguyentuan9891/#72470140
