@@ -62,7 +62,7 @@ public class MainMenuController {
     }
 
     @FXML
-    void removeStu(ActionEvent event) {
+    void removeStu(ActionEvent event) throws IOException {
     		anchor = FXMLLoader.load(getClass().getResource("remover.fxml")); 
   		Scene scene = new Scene(anchor);
   		Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
